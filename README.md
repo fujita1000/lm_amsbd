@@ -53,3 +53,7 @@ LIMIT 4;
 
 herokuとの接続コマンド
 heroku run php artisan migrate
+
+herokuとgithub接続コマンド&プッシュ
+heroku git:remote -a lm-amsbd            
+git push heroku main  
