@@ -50,3 +50,6 @@ threadテーブルの中の最新四つすべて削除する
 DELETE FROM threads
 ORDER BY created_at DESC
 LIMIT 4;
+
+herokuとの接続コマンド
+heroku run php artisan migrate
